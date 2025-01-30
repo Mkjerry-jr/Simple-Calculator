@@ -1,0 +1,89 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Background Video Styling */
+.video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Centering the Calculator */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Calculator Box */
+.calculator {
+    background: rgba(0, 0, 0, 0.8); /* Slight transparency */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Calculator Buttons */
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    background-color: rgb(48, 46, 46);
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.calculator form input:hover {
+    transform: scale(1.1);
+}
+
+/* Display Screen */
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 55px;
+    box-shadow: none;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Special Buttons */
+form input.equal {
+    width: 175px;
+    background-color: rgb(255, 162, 0);
+}
+
+form input.operator {
+    background-color: rgb(255, 162, 0);
+    font-size: 40px;
+}
+
+form input.operator1 {
+    background-color: rgb(117, 117, 117);
+}
