@@ -4,6 +4,7 @@ A sleek **frontend-based calculator** inspired by the **vintage iPhone calculato
 The app features a **black & gold theme** with a stunning modern background while keeping the layout minimal and functional.  
 
 
+![Demo GIF](Demo_Calc.gif) 
 
 ---
 
@@ -20,6 +21,7 @@ The app features a **black & gold theme** with a stunning modern background whil
 - **CSS3** (modern styling, gradients, shadows, and animations)  
 - **JavaScript (Vanilla JS)** for calculator logic  
 
+**Note:** This project was created as part of my internship task at **SystemTron**.
 ---
 
 
